@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Birthday Chanchal 💙</title>
+<style>
+:root{--navy:#102746;--blue:#4e86c6;--sky:#dceeff;--ice:#f4f9ff;--ink:#19314d;--muted:#58708c;--white:#fff}
+*{box-sizing:border-box}
+body{margin:0;min-height:100vh;font-family: "Trebuchet MS", system-ui, sans-serif;color:var(--ink);background:radial-gradient(circle at 12% 15%,#c5e4ff 0,transparent 30%),radial-gradient(circle at 88% 80%,#b6d7ff 0,transparent 28%),linear-gradient(135deg,#eef7ff,#d9eaff);display:flex;align-items:center;justify-content:center;padding:18px;overflow-x:hidden}
+body:before,body:after{content:"✦";position:fixed;color:#fff8;font-size:100px;pointer-events:none;animation:float 7s ease-in-out infinite}
+body:before{top:4%;left:5%}body:after{bottom:4%;right:7%;animation-delay:-3s}
+@keyframes float{50%{transform:translateY(-15px) rotate(18deg)}}
+.shell{width:min(760px,100%);position:relative}
+.topline{display:flex;justify-content:space-between;align-items:center;margin:0 4px 12px;color:#42648a;font-size:12px;letter-spacing:2px;text-transform:uppercase}
+.dots{display:flex;gap:6px}.dot{height:6px;width:18px;border-radius:99px;background:#9dbfe3;transition:.25s}.dot.active{width:32px;background:#315f96}
+.card{min-height:535px;background:#ffffffd9;border:1px solid #ffffff;box-shadow:0 22px 65px #305b8430;border-radius:28px;padding:clamp(24px,6vw,52px);position:relative;overflow:hidden;backdrop-filter:blur(10px);display:flex;flex-direction:column}
+.card:before{content:"";position:absolute;top:-65px;right:-55px;width:180px;height:180px;border:1px solid #9fc7ef88;border-radius:50%;box-shadow:0 0 0 18px #d6eaff44,0 0 0 38px #d6eaff22;pointer-events:none}
+.page{display:none;animation:enter .35s ease}.page.active{display:flex;flex-direction:column;flex:1}
+@keyframes enter{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:translateY(0)}}
+.eyebrow{font-size:12px;letter-spacing:2.5px;text-transform:uppercase;color:#5984b3;font-weight:800;margin-bottom:14px}
+h1{font-size:clamp(36px,8vw,65px);line-height:1.02;letter-spacing:-2px;margin:0 0 18px;color:var(--navy)}
+h2{font-size:clamp(27px,5vw,40px);line-height:1.1;margin:0 0 17px;color:var(--navy);letter-spacing:-1px}
+p{font-size:16px;line-height:1.75;color:#405a77;margin:0 0 14px}
+.bigemoji{font-size:60px;margin:10px 0 18px;filter:drop-shadow(0 7px 8px #315f9622)}
+.tag{display:inline-flex;align-self:flex-start;border:1px solid #c4ddf5;background:#edf6ff;color:#426b99;border-radius:99px;padding:8px 13px;font-size:12px;margin:4px 6px 4px 0}
+.quote{background:#eef6ff;border-left:4px solid #6ea1d7;border-radius:0 14px 14px 0;padding:15px 18px;margin:12px 0 18px;color:#2d4f76;line-height:1.7}
+.memory-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin:8px 0 18px}
+.memory{background:#f0f7ff;border:1px solid #d7e9fb;border-radius:17px;padding:14px;font-size:14px;line-height:1.5;color:#3c5a7c}
+.memory b{display:block;font-size:20px;margin-bottom:5px}
+.note{font-size:12px;color:#7990aa;margin-top:auto;padding-top:18px}
+.controls{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:24px}
+button{font:inherit;cursor:pointer;border:0}
+.btn{padding:13px 19px;border-radius:14px;font-weight:800;transition:transform .15s,box-shadow .15s}
+.btn:hover{transform:translateY(-2px)}
+.next{background:var(--navy);color:white;box-shadow:0 8px 20px #17375b28}
+.back{background:#e9f3ff;color:#41658d}
+.pagecount{font-size:12px;color:#7590ad}
+.songbox{padding:20px;border-radius:20px;background:linear-gradient(135deg,#e6f3ff,#f6faff);border:1px solid #cfe4fa;margin:10px 0 18px}
+.song-title{font-size:23px;font-weight:900;color:#1c426e;margin:5px 0}
+.songbtn{display:inline-block;text-decoration:none;color:white;background:#315f96;border-radius:12px;padding:11px 15px;font-weight:800;font-size:13px;margin-top:10px}
+.finalstamp{font-size:13px;letter-spacing:2px;text-transform:uppercase;color:#4e7eae;font-weight:800;margin-top:10px}
+@media(max-width:520px){.card{min-height:590px;padding:25px 22px}.memory-grid{grid-template-columns:1fr}.topline{font-size:10px}.bigemoji{font-size:50px}p{font-size:15px}}
+</style>
+</head>
+<body>
+<div class="shell">
+  <div class="topline"><span>tiny birthday website · for Chanchal</span><div class="dots" id="dots"></div></div>
+  <main class="card">
+    <section class="page active">
+      <div class="eyebrow">01 / the main character has arrived</div>
+      <div class="bigemoji">🎂💙✨</div>
+      <h1>Happy Birthday,<br>Chanchal!</h1>
+      <p>EK AUR SAAL BADI. 😭 Character development abhi bhi loading… 2% pe atka hua hai. 🤡</p>
+      <div class="quote">Aaj birthday hai tera, toh aaj tujhe tolerate nahi — celebrate karenge. Kal se phir normal beizzati resume. 💅</div>
+      <div><span class="tag">certified smile dealer</span><span class="tag">hostel legend</span><span class="tag">Maggie department</span></div>
+      <p class="note">Made with questionable levels of affection and a very normal amount of blue.</p>
+    </section>
+
+    <section class="page">
+      <div class="eyebrow">02 / national talent award 🏆</div>
+      <div class="bigemoji">😁✨📸</div>
+      <h2>Smile toh dekho madam ki!</h2>
+      <p>Chanchal ki smile ka competition karwana hai? Kis se bhai? 😭 Pehle contestants toh mil jaayein. Is department mein toh tumne monopoly bana rakhi hai.</p>
+      <p>Tum aise smile karti ho jaise duniya mein koi tension hi nahi… aur hum sochte reh jaate hain ki iska secret kya hai, Maggie ka masala ya koi illegal jadoo? 🤨</p>
+      <div class="quote">Official report: smile level — 100/10. <br>Side effects: saamne wala bhi hasne lagta hai. Is talent ka misuse mat karna, madam. 😂</div>
+      <p class="note">Keep smiling, warna hostel ki CCTV footage boring ho jayegi.</p>
+    </section>
+
+    <section class="page">
+      <div class="eyebrow">03 / hostel cinematic universe 🎬</div>
+      <div class="bigemoji">🍜🌙🪟🫡</div>
+      <h2>Apna hostel era was UNMATCHED.</h2>
+      <p>Yaad hai woh din? Life simple thi: khana, bakchodi, late-night gossip aur next morning uthke regret. 😭</p>
+      <div class="memory-grid">
+        <div class="memory"><b>🍜 Maggie by Chanchal</b>Madam banati bhi khud thi, khati bhi khud thi. Baaki logon ko bas smell se kaam chalana tha kya? 😭</div>
+        <div class="memory"><b>🥢 Soya sticks</b>Soya sticks ka snack-time, jaise Michelin star restaurant khul gaya ho room mein.</div>
+        <div class="memory"><b>🌙 Late-night chat</b>“Bas 5 minute aur” bolte-bolte aadhi raat gayab. Subah alarm: *who are you?* 💀</div>
+        <div class="memory"><b>🪟 The legendary window</b>Woh khidki aur saamne wala boys' hostel… 👀 hum toh bas scenery observe kar rahe the, your honour.</div>
+      </div>
+      <p class="note">Hostel life: 10% padhai, 90% stories jo baad mein yaad karke haste hain.</p>
+    </section>
+
+    <section class="page">
+      <div class="eyebrow">04 / BREAKING NEWS: CHANCHAL MISSING 💀</div>
+      <div class="bigemoji">🚨🏃‍♀️🕵️‍♀️</div>
+      <h2>Warden round = full CID episode.</h2>
+      <p>Scene imagine karo: warden ma’am late-night round pe aayi… aur Chanchal apne room mein mili hi nahi. 😭</p>
+      <div class="quote">HOSTEL NEWS FLASH 🚨<br>“CHANCHAL ROOM SE GAYAB. KYA WOH KISI LADKE KE SAATH BHAAG GAYI??”<br><br>Brooooo 😭😭 kisi ne confirm bhi nahi kiya tha, but theories toh seedha Bollywood level pe pahunch gayi.</div>
+      <p>Aur main? Mujhe toh actual scene bhi nahi pata tha, BUT main bhi 4th floor pe investigation karne pahunch gayi. 💀 Like madam, aapko khud nahi pata kya hua hai, aap investigation team mein kya kar rahi ho???</p>
+      <div class="memory-grid">
+        <div class="memory"><b>🚨 Warden</b>Late-night round karne aayi thi, full plot twist mil gaya.</div>
+        <div class="memory"><b>🕵️‍♀️ Hum sab</b>Facts: zero. Panic: 100%. Investigation: unnecessary but compulsory.</div>
+      </div>
+      <p>Ab yaad karti hoon toh hasi aati hai yaar. Warden ke saath aisi chhoti-chhoti masti aur hostel ke random kaand hi toh best memories ban gaye. 😭😂</p>
+      <span class="tag">CID: Hostel Branch</span><span class="tag">breaking news department</span>
+      <p class="note">Case status: abhi bhi hasi aa rahi hai. 💀</p>
+    </section>
+
+    <section class="page">
+      <div class="eyebrow">05 / SLEEP IS CANCELLED 🪩</div>
+      <div class="bigemoji">💃🕺🔊</div>
+      <h2>Uth ja, dance kar!</h2>
+      <p>Birthday girl ke liye sleepy-sleepy gaana nahi chalega. Aisa track chahiye ki neend bole “main chalti hoon, tum log continue karo.” 😭</p>
+      <div class="songbox">
+        <div class="eyebrow">FULL CHULBULI ENERGY</div>
+        <div class="song-title">Gallan Goodiyaan 💃</div>
+        <p>Volume full, tension zero, aur dance moves chahe bilkul bekaar hon — confidence full hona chahiye. Chanchal, stage tumhara hai. 🪩</p>
+        <a class="songbtn" href="https://www.youtube.com/results?search_query=Gallan+Goodiyaan+Dil+Dhadakne+Do+official+song" target="_blank" rel="noopener">PLAY IT LOUD ↗</a>
+      </div>
+      <p class="note">Warning: iske baad seedha baithna mushkil ho sakta hai. Dance responsibly, madam. 😂</p>
+    </section>
+
+    <section class="page">
+      <div class="eyebrow">06 / OKAY THODA SA SERIOUS HO JAA 😭</div>
+      <div class="bigemoji">💌🩵🫂</div>
+      <h2>Sun na, Chanchal.</h2>
+      <p>Ek chhoti si baat bolni thi — agar kabhi maine kuch aisa bol diya ya kar diya jisse tujhe bura laga ho, toh genuinely sorry yaar. 🥹 Ho sakta hai us time mujhe samajh na aaya ho, but I never wanted to hurt you.</p>
+      <p>Aur please ye mat sochna ki mujhe farak nahi padta tha. Pagal, I genuinely cared about you. Main har baar perfect friend nahi thi, kabhi stupid bhi behave kiya hoga, but meri taraf se care fake nahi thi. 💙</p>
+      <div class="quote">Aur sach bolun? Hostel life ko ek baar rewind kar paati na, toh same random bakchodi, same late-night baatein, same Maggie aur same hum sab choose karti. Bas kuch moments mein thoda aur achhe se behave kar leti. 😭</div>
+      <p>Bas itna hi. Ab zyada senti mat hona, birthday hai tera — rona-dhona optional, cake compulsory. 🤝😂</p>
+      <p class="note">Tu important hai, okay? Ab chal, wapas normal bakchodi pe aate hain. 🩵</p>
+    </section>
+
+    <section class="page">
+      <div class="eyebrow">07 / ab ja cake kaat 🎂</div>
+      <div class="bigemoji">🎂🩵🪩✨</div>
+      <h2>Happy Birthday, meri chaos partner!</h2>
+      <p>Yaar, agar ek din ke liye hostel life rewind ho sakti na, toh main bina soche kar leti. Wahi rooms, wahi Maggie, wahi soya sticks, wahi late-night bakwaas aur woh warden ke saath mini-thrillers. 😭😂</p>
+      <p>Kaash thoda aur enjoy karte, thodi aur photos lete, aur har chhoti baat ko itna normal samajh ke ignore na karte. Tab pata nahi tha ki baad mein yehi random moments itne yaad aayenge.</p>
+      <div class="quote">Tere liye wish hai: iss saal khush reh, khul ke has, mast dance kar, achhe log milen aur life tujhe thoda kam pareshan kare. Baaki drama ke liye toh tu khud hi kaafi hai. 💙</div>
+      <div class="finalstamp">Stay pagal. Stay smiling. Stay Chanchal. 🪩</div>
+      <p class="note">P.S. Itni mehnat se website banayi hai. Treat + Maggie pending. No excuses, madam. 😌🍜</p>
+    </section>
+
+    <div class="controls">
+      <button class="btn back" id="back" type="button" aria-label="Previous page">← Back</button>
+      <span class="pagecount" id="pagecount">PAGE 1 OF 7</span>
+      <button class="btn next" id="next" type="button">Next page →</button>
+    </div>
+  </main>
+</div>
+<script>
+const pages=[...document.querySelectorAll('.page')];
+const dots=document.getElementById('dots');
+const back=document.getElementById('back');
+const next=document.getElementById('next');
+const count=document.getElementById('pagecount');
+let current=0;
+pages.forEach((_,i)=>{const d=document.createElement('span');d.className='dot'+(i===0?' active':'');dots.appendChild(d);});
+function show(i){
+  current=Math.max(0,Math.min(pages.length-1,i));
+  pages.forEach((p,j)=>p.classList.toggle('active',j===current));
+  [...dots.children].forEach((d,j)=>d.classList.toggle('active',j===current));
+  count.textContent=`PAGE ${current+1} OF ${pages.length}`;
+  back.disabled=current===0;back.style.opacity=current===0?'.4':'1';
+  next.textContent=current===pages.length-1?'Read again ↺':'Next page →';
+  document.querySelector('.card').scrollIntoView({behavior:'smooth',block:'nearest'});
+}
+back.addEventListener('click',()=>show(current-1));
+next.addEventListener('click',()=>show(current===pages.length-1?0:current+1));
+document.addEventListener('keydown',e=>{if(e.key==='ArrowRight')show(current+1);if(e.key==='ArrowLeft')show(current-1);});
+show(0);
+</script>
+</body>
+</html>
